@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E090A4DA2B986D4D008D3B61 /* ExtensionActivationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E090A4D92B986D4D008D3B61 /* ExtensionActivationManager.swift */; };
 		E090A4DE2B98C066008D3B61 /* TunnelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E090A4DD2B98C066008D3B61 /* TunnelViewModel.swift */; };
 		E0914E242B9314E200847A57 /* VPNDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0914E232B9314E200847A57 /* VPNDemoApp.swift */; };
 		E0914E262B9314E200847A57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0914E252B9314E200847A57 /* ContentView.swift */; };
@@ -44,7 +43,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E090A4D92B986D4D008D3B61 /* ExtensionActivationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionActivationManager.swift; sourceTree = "<group>"; };
 		E090A4DD2B98C066008D3B61 /* TunnelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelViewModel.swift; sourceTree = "<group>"; };
 		E0914E202B9314E200847A57 /* VPNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0914E232B9314E200847A57 /* VPNDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNDemoApp.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				E0914E252B9314E200847A57 /* ContentView.swift */,
 				E0914E462B9348AD00847A57 /* TunnelManager.swift */,
 				E090A4DD2B98C066008D3B61 /* TunnelViewModel.swift */,
-				E090A4D92B986D4D008D3B61 /* ExtensionActivationManager.swift */,
 				E0914E272B9314E300847A57 /* Assets.xcassets */,
 				E0914E2C2B9314E300847A57 /* VPNDemo.entitlements */,
 				E0914E292B9314E300847A57 /* Preview Content */,
@@ -242,7 +239,6 @@
 				E090A4DE2B98C066008D3B61 /* TunnelViewModel.swift in Sources */,
 				E0914E262B9314E200847A57 /* ContentView.swift in Sources */,
 				E0914E242B9314E200847A57 /* VPNDemoApp.swift in Sources */,
-				E090A4DA2B986D4D008D3B61 /* ExtensionActivationManager.swift in Sources */,
 				E0914E472B9348AD00847A57 /* TunnelManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
