@@ -52,7 +52,7 @@ class TunnelManager {
     private var configuration: NETunnelProviderManager?
     private var request = Request.detect
     private var processingRequest = Request.detect
-    private var internalState = InternalState.waitingStableState
+    private var internalState = InternalState.waitingRequest
     private var connectionStateObserver: NSObjectProtocol?
     private var requestsForRunningStateMachine = 0
 
@@ -169,7 +169,7 @@ class TunnelManager {
             }
         }
 
-        return .waitingStableState
+        return .waitingRequest
     }
 
     private func runWaitingStableStateState() async -> InternalState {
